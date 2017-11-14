@@ -12,6 +12,9 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, cache = TRUE)
+install.packages("rgdal")
+install.packages("raster")
+install.packages("ggplot2")
 ```
 
 ```{r Input Data}
